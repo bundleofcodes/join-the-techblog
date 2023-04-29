@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require ("path");
 //paths
-const controller = require(""),
+const controller = require("./controllers");
 //handlebars
 const exphbs = require("");
 //sequelize
