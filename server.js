@@ -3,12 +3,12 @@ const path = require ("path");
 //paths
 const controller = require("./controllers");
 //handlebars
-const exphbs = require("");
+const exphbs = require("express-handlebars");
 //sequelize
 const sequelize = require("./config/connection");
 //session
-const session = require("");
-const SequelizeStore = require("")(session.Store);
+const session = require("express-session");
+const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
 //set up actual session
 const sess = {
@@ -34,7 +34,7 @@ app.use(session(sess));
 app.use("/", controller);
 
 //set handlebars as render engine
-app.engine("handlebars", exphbs());
+// app.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
 
 sequelize.sync({ force: false }).then(() => {
