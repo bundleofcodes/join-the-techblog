@@ -1,4 +1,10 @@
 .wrapper {
-    padding: 20px;
+    padding: 90px;
     align-content: right;
+    text-align: center;
+    font-size: 20px;
+}
+
+body {
+    background-color: lightblue;
 }

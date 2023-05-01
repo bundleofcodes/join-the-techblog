@@ -1,6 +1,7 @@
 //edit post
 async function editPostHandler(event) {
     event.preventDefault();
+    // console.log('edit')
     //get post title and text
     const title = document.querySelector("#post-title").innerHTML;
     const body = document.querySelector("#post-body").innerHTML;

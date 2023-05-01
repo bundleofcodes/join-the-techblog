@@ -8,7 +8,7 @@ async function createPostHandler(event) {
     ];
 
     if(body) {
-        const response = await fetch("/api/posts" + post_id, {
+        const response = await fetch("/api/posts/" + post_id, {
             method: "PUT",
             body: JSON.stringify({
                 title,

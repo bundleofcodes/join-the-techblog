@@ -34,7 +34,7 @@ app.use(session(sess));
 app.use("/", controller);
 
 //set handlebars as render engine
-// app.engine("handlebars", exphbs());
+app.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
 
 sequelize.sync({ force: false }).then(() => {
