@@ -35,7 +35,7 @@ The user should clone the repository from GitHub. This application requires Node
 
 ## Usage:
 
-- [Click here to view the deployed application on Heroku:]() 
+- [Click here to view the deployed application on Heroku:](https://enigmatic-reef-85475.herokuapp.com/) 
 
 - Application Screenshot:
 
