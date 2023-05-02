@@ -39,15 +39,22 @@ The user should clone the repository from GitHub. This application requires Node
 
 - Application Screenshot:
 
-- ![Application Screenshot]()
+- ![Application Screenshot](/public/images/techblog1.jpg)
+- ![Application Screenshot](/public/images/Techblog2.jpg)
+- ![Application Screenshot](/public/images/techblog3.jpg)
 
-- [Repository URL:](https://github.com/bundleofcodes/join-the-techblog)
+
+- [Click here to view the Repository URL:](https://github.com/bundleofcodes/join-the-techblog)
 
 ## Credits:
 
 - Raiya Young
 - Georgia Tech Coding Bootcamp
-- 
+- Mazin Abed
+- Constan Fernando
+- AJ
+- Andres Inciarte
+- Saurav Khatiwada
 
 ## License:
 
